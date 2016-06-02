@@ -1,0 +1,885 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>DocumentRegistry | jupyter-js-ui</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script src="../assets/js/modernizr.js"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">jupyter-js-ui</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="../modules/_docmanager_registry_.html">&quot;docmanager/registry&quot;</a>
+				</li>
+				<li>
+					<a href="_docmanager_registry_.documentregistry.html">DocumentRegistry</a>
+				</li>
+			</ul>
+			<h1>Class DocumentRegistry</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>The document registery.</p>
+					</div>
+					<h4 id="notes">Notes</h4>
+					<p>The document registry is used to register model and widget creators.</p>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">DocumentRegistry</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><span class="tsd-signature-type">IDisposable</span></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_docmanager_registry_.documentregistry.html#_creators" class="tsd-kind-icon">_creators</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_docmanager_registry_.documentregistry.html#_defaultwidgetfactories" class="tsd-kind-icon">_default<wbr>Widget<wbr>Factories</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_docmanager_registry_.documentregistry.html#_defaultwidgetfactory" class="tsd-kind-icon">_default<wbr>Widget<wbr>Factory</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_docmanager_registry_.documentregistry.html#_extenders" class="tsd-kind-icon">_extenders</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_docmanager_registry_.documentregistry.html#_filetypes" class="tsd-kind-icon">_file<wbr>Types</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_docmanager_registry_.documentregistry.html#_modelfactories" class="tsd-kind-icon">_model<wbr>Factories</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_docmanager_registry_.documentregistry.html#_widgetfactories" class="tsd-kind-icon">_widget<wbr>Factories</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="_docmanager_registry_.documentregistry.html#defaultwidgetfactory" class="tsd-kind-icon">default<wbr>Widget<wbr>Factory</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="_docmanager_registry_.documentregistry.html#isdisposed" class="tsd-kind-icon">is<wbr>Disposed</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="_docmanager_registry_.documentregistry.html#_getwidgetfactoryex" class="tsd-kind-icon">_get<wbr>Widget<wbr>Factory<wbr>Ex</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_docmanager_registry_.documentregistry.html#dispose" class="tsd-kind-icon">dispose</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_docmanager_registry_.documentregistry.html#getkernelpreference" class="tsd-kind-icon">get<wbr>Kernel<wbr>Preference</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_docmanager_registry_.documentregistry.html#getmodelfactory" class="tsd-kind-icon">get<wbr>Model<wbr>Factory</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_docmanager_registry_.documentregistry.html#getwidgetextensions" class="tsd-kind-icon">get<wbr>Widget<wbr>Extensions</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_docmanager_registry_.documentregistry.html#getwidgetfactory" class="tsd-kind-icon">get<wbr>Widget<wbr>Factory</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_docmanager_registry_.documentregistry.html#listcreators" class="tsd-kind-icon">list<wbr>Creators</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_docmanager_registry_.documentregistry.html#listfiletypes" class="tsd-kind-icon">list<wbr>File<wbr>Types</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_docmanager_registry_.documentregistry.html#listwidgetfactories" class="tsd-kind-icon">list<wbr>Widget<wbr>Factories</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_docmanager_registry_.documentregistry.html#registercreator" class="tsd-kind-icon">register<wbr>Creator</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_docmanager_registry_.documentregistry.html#registerextension" class="tsd-kind-icon">register<wbr>Extension</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_docmanager_registry_.documentregistry.html#registerfiletype" class="tsd-kind-icon">register<wbr>File<wbr>Type</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_docmanager_registry_.documentregistry.html#registermodelfactory" class="tsd-kind-icon">register<wbr>Model<wbr>Factory</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_docmanager_registry_.documentregistry.html#registerwidgetfactory" class="tsd-kind-icon">register<wbr>Widget<wbr>Factory</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_creators" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _creators</h3>
+					<div class="tsd-signature tsd-kind-icon">_creators<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_docmanager_interfaces_.ifilecreator.html" class="tsd-signature-type">IFileCreator</a><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L322">docmanager/registry.ts:322</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_defaultwidgetfactories" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _default<wbr>Widget<wbr>Factories</h3>
+					<div class="tsd-signature tsd-kind-icon">_default<wbr>Widget<wbr>Factories<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L320">docmanager/registry.ts:320</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-index-signature">
+								<h5><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">string</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_defaultwidgetfactory" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _default<wbr>Widget<wbr>Factory</h3>
+					<div class="tsd-signature tsd-kind-icon">_default<wbr>Widget<wbr>Factory<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L319">docmanager/registry.ts:319</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_extenders" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _extenders</h3>
+					<div class="tsd-signature tsd-kind-icon">_extenders<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L323">docmanager/registry.ts:323</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-index-signature">
+								<h5><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><a href="../interfaces/_docmanager_interfaces_.iwidgetextension.html" class="tsd-signature-type">IWidgetExtension</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Widget</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_filetypes" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _file<wbr>Types</h3>
+					<div class="tsd-signature tsd-kind-icon">_file<wbr>Types<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_docmanager_interfaces_.ifiletype.html" class="tsd-signature-type">IFileType</a><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L321">docmanager/registry.ts:321</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_modelfactories" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _model<wbr>Factories</h3>
+					<div class="tsd-signature tsd-kind-icon">_model<wbr>Factories<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L317">docmanager/registry.ts:317</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-index-signature">
+								<h5><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><a href="../interfaces/_docmanager_interfaces_.imodelfactory.html" class="tsd-signature-type">IModelFactory</a></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_widgetfactories" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _widget<wbr>Factories</h3>
+					<div class="tsd-signature tsd-kind-icon">_widget<wbr>Factories<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L318">docmanager/registry.ts:318</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-index-signature">
+								<h5><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">IWidgetFactoryEx</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="defaultwidgetfactory" class="tsd-anchor"></a>
+					<h3>default<wbr>Widget<wbr>Factory</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L36">docmanager/registry.ts:36</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>The name of the default widget factory.</p>
+								</div>
+								<h4 id="notes">Notes</h4>
+								<p>This is a read-only property.</p>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="isdisposed" class="tsd-anchor"></a>
+					<h3>is<wbr>Disposed</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L43">docmanager/registry.ts:43</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get whether the document registry has been disposed.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="_getwidgetfactoryex" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _get<wbr>Widget<wbr>Factory<wbr>Ex</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">_get<wbr>Widget<wbr>Factory<wbr>Ex<span class="tsd-signature-symbol">(</span>widgetName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IWidgetFactoryEx</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L307">docmanager/registry.ts:307</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the appropriate widget factory by name.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>widgetName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IWidgetFactoryEx</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="dispose" class="tsd-anchor"></a>
+					<h3>dispose</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">dispose<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L50">docmanager/registry.ts:50</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Dispose of the resources held by the document registery.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getkernelpreference" class="tsd-anchor"></a>
+					<h3>get<wbr>Kernel<wbr>Preference</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Kernel<wbr>Preference<span class="tsd-signature-symbol">(</span>ext<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, widgetName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_docmanager_interfaces_.ikernelpreference.html" class="tsd-signature-type">IKernelPreference</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L264">docmanager/registry.ts:264</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the kernel preference.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>ext: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>widgetName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/_docmanager_interfaces_.ikernelpreference.html" class="tsd-signature-type">IKernelPreference</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getmodelfactory" class="tsd-anchor"></a>
+					<h3>get<wbr>Model<wbr>Factory</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Model<wbr>Factory<span class="tsd-signature-symbol">(</span>widgetName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_docmanager_interfaces_.imodelfactory.html" class="tsd-signature-type">IModelFactory</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L279">docmanager/registry.ts:279</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the model factory registered for a given widget factory.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>widgetName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/_docmanager_interfaces_.imodelfactory.html" class="tsd-signature-type">IModelFactory</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getwidgetextensions" class="tsd-anchor"></a>
+					<h3>get<wbr>Widget<wbr>Extensions</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Widget<wbr>Extensions<span class="tsd-signature-symbol">(</span>widgetName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_docmanager_interfaces_.iwidgetextension.html" class="tsd-signature-type">IWidgetExtension</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Widget</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L297">docmanager/registry.ts:297</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the registered extensions for a given widget.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>widgetName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/_docmanager_interfaces_.iwidgetextension.html" class="tsd-signature-type">IWidgetExtension</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Widget</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getwidgetfactory" class="tsd-anchor"></a>
+					<h3>get<wbr>Widget<wbr>Factory</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Widget<wbr>Factory<span class="tsd-signature-symbol">(</span>widgetName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_docmanager_interfaces_.iwidgetfactory.html" class="tsd-signature-type">IWidgetFactory</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Widget</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L290">docmanager/registry.ts:290</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get a widget factory by name.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>widgetName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/_docmanager_interfaces_.iwidgetfactory.html" class="tsd-signature-type">IWidgetFactory</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Widget</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="listcreators" class="tsd-anchor"></a>
+					<h3>list<wbr>Creators</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">list<wbr>Creators<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_docmanager_interfaces_.ifilecreator.html" class="tsd-signature-type">IFileCreator</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L257">docmanager/registry.ts:257</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the ordered list of file creator names.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/_docmanager_interfaces_.ifilecreator.html" class="tsd-signature-type">IFileCreator</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="listfiletypes" class="tsd-anchor"></a>
+					<h3>list<wbr>File<wbr>Types</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">list<wbr>File<wbr>Types<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_docmanager_interfaces_.ifiletype.html" class="tsd-signature-type">IFileType</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L250">docmanager/registry.ts:250</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get a list of file types that have been registered.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/_docmanager_interfaces_.ifiletype.html" class="tsd-signature-type">IFileType</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="listwidgetfactories" class="tsd-anchor"></a>
+					<h3>list<wbr>Widget<wbr>Factories</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">list<wbr>Widget<wbr>Factories<span class="tsd-signature-symbol">(</span>ext<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L206">docmanager/registry.ts:206</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get the list of registered widget factory display names.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> ext: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="registercreator" class="tsd-anchor"></a>
+					<h3>register<wbr>Creator</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">register<wbr>Creator<span class="tsd-signature-symbol">(</span>creator<span class="tsd-signature-symbol">: </span><a href="../interfaces/_docmanager_interfaces_.ifilecreator.html" class="tsd-signature-type">IFileCreator</a>, after<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IDisposable</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L178">docmanager/registry.ts:178</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Register a Create New handler.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>params</dt>
+									<dd><p>creator - The file creator object.</p>
+									</dd>
+									<dt>params</dt>
+									<dd><p>after - The optional item name to insert after.</p>
+										<h4 id="notes">Notes</h4>
+										<p>If <code>after</code> is not given or not already registered, it will be moved
+										to the end.</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>creator: <a href="../interfaces/_docmanager_interfaces_.ifilecreator.html" class="tsd-signature-type">IFileCreator</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> after: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IDisposable</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="registerextension" class="tsd-anchor"></a>
+					<h3>register<wbr>Extension</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">register<wbr>Extension<span class="tsd-signature-symbol">(</span>widgetName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, extension<span class="tsd-signature-symbol">: </span><a href="../interfaces/_docmanager_interfaces_.iwidgetextension.html" class="tsd-signature-type">IWidgetExtension</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Widget</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IDisposable</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L141">docmanager/registry.ts:141</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Register a widget extension.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>widgetName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>extension: <a href="../interfaces/_docmanager_interfaces_.iwidgetextension.html" class="tsd-signature-type">IWidgetExtension</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Widget</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>A widget extension.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IDisposable</span></h4>
+							<p>A disposable that can be used to unregister the extension.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="registerfiletype" class="tsd-anchor"></a>
+					<h3>register<wbr>File<wbr>Type</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">register<wbr>File<wbr>Type<span class="tsd-signature-symbol">(</span>fileType<span class="tsd-signature-symbol">: </span><a href="../interfaces/_docmanager_interfaces_.ifiletype.html" class="tsd-signature-type">IFileType</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IDisposable</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L158">docmanager/registry.ts:158</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Register a file type with the document registry.</p>
+								</div>
+								<h4 id="notes">Notes</h4>
+								<p>These are used to populate the &quot;Create New&quot; dialog.</p>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>fileType: <a href="../interfaces/_docmanager_interfaces_.ifiletype.html" class="tsd-signature-type">IFileType</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IDisposable</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="registermodelfactory" class="tsd-anchor"></a>
+					<h3>register<wbr>Model<wbr>Factory</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">register<wbr>Model<wbr>Factory<span class="tsd-signature-symbol">(</span>factory<span class="tsd-signature-symbol">: </span><a href="../interfaces/_docmanager_interfaces_.imodelfactory.html" class="tsd-signature-type">IModelFactory</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IDisposable</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L123">docmanager/registry.ts:123</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Register a model factory.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>factory: <a href="../interfaces/_docmanager_interfaces_.imodelfactory.html" class="tsd-signature-type">IModelFactory</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The factory instance.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IDisposable</span></h4>
+							<p>A disposable used to unregister the factory.</p>
+							<h4 id="notes">Notes</h4>
+							<p>If a factory with the given <code>name</code> is already registered, an error
+							will be thrown.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="registerwidgetfactory" class="tsd-anchor"></a>
+					<h3>register<wbr>Widget<wbr>Factory</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">register<wbr>Widget<wbr>Factory<span class="tsd-signature-symbol">(</span>factory<span class="tsd-signature-symbol">: </span><a href="../interfaces/_docmanager_interfaces_.iwidgetfactory.html" class="tsd-signature-type">IWidgetFactory</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Widget</span><span class="tsd-signature-symbol">&gt;</span>, options<span class="tsd-signature-symbol">: </span><a href="../interfaces/_docmanager_interfaces_.iwidgetfactoryoptions.html" class="tsd-signature-type">IWidgetFactoryOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IDisposable</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jupyter/jupyter-js-ui/blob/HEAD/src/docmanager/registry.ts#L81">docmanager/registry.ts:81</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Register a widget factory with the document registry.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>factory: <a href="../interfaces/_docmanager_interfaces_.iwidgetfactory.html" class="tsd-signature-type">IWidgetFactory</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Widget</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The factory instance.</p>
+									</div>
+								</li>
+								<li>
+									<h5>options: <a href="../interfaces/_docmanager_interfaces_.iwidgetfactoryoptions.html" class="tsd-signature-type">IWidgetFactoryOptions</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The options used to register the factory.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IDisposable</span></h4>
+							<p>A disposable used to unregister the factory.</p>
+							<h4 id="notes">Notes</h4>
+							<p>If a factory with the given <code>displayName</code> is already registered,
+								an error will be thrown.
+								If <code>&#39;.*&#39;</code> is given as a default extension, the factory will be registered
+								as the global default.
+								If a factory is already registered as a default for a given extension or
+							as the global default, this factory will override the existing default.</p>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+					<li class="current tsd-kind-external-module">
+						<a href="../modules/_docmanager_registry_.html">"docmanager/registry"</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-external-module">
+						<a href="_docmanager_registry_.documentregistry.html" class="tsd-kind-icon">Document<wbr>Registry</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_docmanager_registry_.documentregistry.html#_creators" class="tsd-kind-icon">_creators</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_docmanager_registry_.documentregistry.html#_defaultwidgetfactories" class="tsd-kind-icon">_default<wbr>Widget<wbr>Factories</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_docmanager_registry_.documentregistry.html#_defaultwidgetfactory" class="tsd-kind-icon">_default<wbr>Widget<wbr>Factory</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_docmanager_registry_.documentregistry.html#_extenders" class="tsd-kind-icon">_extenders</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_docmanager_registry_.documentregistry.html#_filetypes" class="tsd-kind-icon">_file<wbr>Types</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_docmanager_registry_.documentregistry.html#_modelfactories" class="tsd-kind-icon">_model<wbr>Factories</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="_docmanager_registry_.documentregistry.html#_widgetfactories" class="tsd-kind-icon">_widget<wbr>Factories</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="_docmanager_registry_.documentregistry.html#defaultwidgetfactory" class="tsd-kind-icon">default<wbr>Widget<wbr>Factory</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="_docmanager_registry_.documentregistry.html#isdisposed" class="tsd-kind-icon">is<wbr>Disposed</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="_docmanager_registry_.documentregistry.html#_getwidgetfactoryex" class="tsd-kind-icon">_get<wbr>Widget<wbr>Factory<wbr>Ex</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_docmanager_registry_.documentregistry.html#dispose" class="tsd-kind-icon">dispose</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_docmanager_registry_.documentregistry.html#getkernelpreference" class="tsd-kind-icon">get<wbr>Kernel<wbr>Preference</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_docmanager_registry_.documentregistry.html#getmodelfactory" class="tsd-kind-icon">get<wbr>Model<wbr>Factory</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_docmanager_registry_.documentregistry.html#getwidgetextensions" class="tsd-kind-icon">get<wbr>Widget<wbr>Extensions</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_docmanager_registry_.documentregistry.html#getwidgetfactory" class="tsd-kind-icon">get<wbr>Widget<wbr>Factory</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_docmanager_registry_.documentregistry.html#listcreators" class="tsd-kind-icon">list<wbr>Creators</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_docmanager_registry_.documentregistry.html#listfiletypes" class="tsd-kind-icon">list<wbr>File<wbr>Types</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_docmanager_registry_.documentregistry.html#listwidgetfactories" class="tsd-kind-icon">list<wbr>Widget<wbr>Factories</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_docmanager_registry_.documentregistry.html#registercreator" class="tsd-kind-icon">register<wbr>Creator</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_docmanager_registry_.documentregistry.html#registerextension" class="tsd-kind-icon">register<wbr>Extension</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_docmanager_registry_.documentregistry.html#registerfiletype" class="tsd-kind-icon">register<wbr>File<wbr>Type</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_docmanager_registry_.documentregistry.html#registermodelfactory" class="tsd-kind-icon">register<wbr>Model<wbr>Factory</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_docmanager_registry_.documentregistry.html#registerwidgetfactory" class="tsd-kind-icon">register<wbr>Widget<wbr>Factory</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.io" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>
